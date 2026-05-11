@@ -24,8 +24,11 @@ export default function Footer() {
               <a href="https://www.heritage.gov.mk/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
                 {t('officialLinks.council')}
               </a>
-              <a href="https://www.ohridinfo.mk/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.tourism')}
+              <a href="https://ohrid.gov.mk/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.municipality')}
+              </a>
+              <a href="https://mfa.gov.mk/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.mfa')}
               </a>
               <a href="https://www.macedonia-timeless.com/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
                 {t('officialLinks.england')}
