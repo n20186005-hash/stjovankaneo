@@ -1,7 +1,9 @@
 {
   "meta": {
-    "title": "Church of St. John at Kaneo, North Macedonia｜Stunning Cliffside Landmark on Lake Ohrid - Must-visit in the Balkans",
-    "description": "Complete guide to Church of St. John at Kaneo (Church of Saint John the Theologian at Kaneo) in Ohrid, North Macedonia. Learn about opening hours, transportation, ticket info, tour tips and stunning photos. The most iconic postcard landmark on Lake Ohrid."
+    "title": "Church of Saint John the Theologian at Kaneo (Ohrid) - Visitor Guide & Location",
+    "ogTitle": "Church of St. John at Kaneo - Ohrid Travel Guide",
+    "description": "Discover Church of Saint John the Theologian at Kaneo, the iconic cliffside landmark in Ohrid, Southwestern, North Macedonia. View location map, opening details, nearby Church of St. Sophia and Plaošnik Archaeological Site, and travel tips.",
+    "ogDescription": "Official visitor guide to Church of Saint John the Theologian at Kaneo (St. John at Kaneo) in Ohrid, North Macedonia. The most iconic postcard landmark on Lake Ohrid."
   },
   "header": {
     "siteName": "St. John at Kaneo",
@@ -12,15 +14,21 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Church of St. John at Kaneo",
-    "subtitle": "Stunning Cliffside Landmark on Lake Ohrid",
-    "rating": "4.9(5,174)",
-    "reviewCount": "5,174 reviews",
+    "title": "Church of Saint John the Theologian at Kaneo (Ohrid)",
+    "subtitle": "Stunning Cliffside Landmark on Lake Ohrid — Iconic St. John at Kaneo Postcard View",
+    "rating": "4.9(5,701)",
+    "reviewCount": "5,701 reviews",
     "hours": "Exterior open 24/7",
     "openMaps": "View Location"
   },
   "intro": {
-    "title": "Discover Church of St. John at Kaneo",
+    "title": "About Church of Saint John the Theologian at Kaneo",
+    "locationTitle": "Location & How to Visit St. John at Kaneo in Ohrid",
+    "landmarksTitle": "Landmarks & Attractions Around St. John at Kaneo",
+    "historyTitle": "History & Significance of Church of Saint John the Theologian at Kaneo",
+    "entityOpening": "Welcome to **Church of Saint John the Theologian at Kaneo**, widely recognized as the central **St. John at Kaneo**. Located in the heart of **Ohrid**, **Southwestern**, **North Macedonia**, this destination serves as a primary hub for travelers visiting the region. As the most iconic postcard landmark on Lake Ohrid, this medieval Orthodox church stands as a testament to centuries of Byzantine architectural heritage.",
+    "breadcrumbLine": "Church of Saint John the Theologian at Kaneo  →  Ohrid  →  Southwestern Region  →  North Macedonia",
+    "nearbyOpening": "When visiting **Church of Saint John the Theologian at Kaneo**, visitors can easily explore surrounding historical landmarks and points of interest, including **Church of St. Sophia** and **Plaošnik Archaeological Site (Church of St. Clement)**.",
     "description": "At first glance, the Church of St. John at Kaneo stuns with its isolated serenity and majesty. It stands proudly on a cliff edge above Lake Ohrid, backed by the boundless, sapphire-clear waters.\n\nI visited on an early autumn evening. Walking up the winding wooden boardwalk, the breeze brushed against the crystal-clear water. Reaching the top, the ancient brick church appeared. The setting sun draped a golden veil over its dome and walls, with the Galičica mountains forming a purple silhouette in the distance.\n\nThere is no lavish decoration here, only the peace washed by time. Sitting on a cliffside rock, listening to the wind and gentle waves, overlooking the sparkling Lake Ohrid, the weight of history and the healing power of nature blend perfectly. Whether you are religious or not, this small church on the cliff will instantly bring peace to your soul.",
     "visitGuide": {
       "title": "Visit Tips",
@@ -69,19 +77,19 @@
   "basicInfo": {
     "title": "Basic Information",
     "officialName": "Official Name",
-    "officialNameValue": "Црква „Св. Јован Канео“ (Church of Saint John the Theologian at Kaneo)",
+    "officialNameValue": "Црква Свети Јован Богослов / Црква „Св. Јован Канео“ (Church of Saint John the Theologian at Kaneo)",
     "type": "Attraction Type",
-    "typeValue": "Orthodox Church, Historical Site, Lakeside Landmark, World Heritage",
+    "typeValue": "Orthodox Church, Historical Site, Lakeside Landmark, UNESCO World Heritage",
     "country": "Country",
-    "countryValue": "North Macedonia",
+    "countryValue": "North Macedonia (MK)",
     "city": "City",
     "cityValue": "Ohrid",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.9/5 (5,174)",
+    "googleRatingValue": "4.9/5 (5,701)",
     "phone": "Phone",
-    "phoneValue": "+389 46 253 020 (Ohrid Tourist Info Center)",
+    "phoneValue": "+389 46 230 455",
     "address": "Address",
-    "addressValue": "Kaneo Plaosnik Pateka, Ohrid 6000, North Macedonia"
+    "addressValue": "4Q6Q+CGJ, Kocho Racin, Ohrid 6000, North Macedonia"
   },
   "hours": {
     "title": "Opening Hours",
@@ -248,9 +256,11 @@
     ]
   },
   "mapSection": {
-    "title": "How to Get Here",
-    "subtitle": "Kaneo Plaosnik Pateka, Ohrid 6000, North Macedonia",
-    "openMaps": "View on Google Maps"
+    "title": "Location & How to Visit St. John at Kaneo in Ohrid",
+    "subtitle": "4Q6Q+CGJ, Kocho Racin, Ohrid 6000, North Macedonia",
+    "openMaps": "View on Google Maps",
+    "govTourismText": "For official updates and regional tourism information, visit",
+    "govTourismLabel": "North Macedonia / Ohrid Official Tourism Portal"
   },
   "footer": {
     "siteName": "St. John at Kaneo",
@@ -330,8 +340,26 @@
     "save": "Save Preferences",
     "saved": "Preferences saved!"
   },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Essential information for planning your visit to St. John at Kaneo",
+    "items": [
+      {
+        "q": "Where is Church of Saint John the Theologian at Kaneo located?",
+        "a": "Church of Saint John the Theologian at Kaneo (commonly known as St. John at Kaneo) is located in Ohrid, Southwestern Region, North Macedonia. The exact address is 4Q6Q+CGJ, Kocho Racin, Ohrid 6000, perched on a cliff above Lake Ohrid."
+      },
+      {
+        "q": "Is St. John at Kaneo free to visit?",
+        "a": "Yes. The church exterior, cliff area, and surrounding picnic/rest zones are fully accessible to the public 24/7 free of charge. Entry to the church interior to view the 14th-century frescoes requires a small ticket (approx. 150 MKD / ~2.5 EUR, cash only)."
+      },
+      {
+        "q": "What are the opening hours of Church of St. John at Kaneo?",
+        "a": "The exterior grounds are open around the clock, year-round. The church interior is typically open 09:00–18:00 in summer (April–October) and 09:00–16:00 in winter (November–March). Sunset (golden hour) is widely recommended for the best lighting and views."
+      }
+    ]
+  },
   "officialManagement": {
     "title": "About Church of St. John at Kaneo",
-    "text": "The Church of St. John at Kaneo (Црква „Св. Јован Канео“) is the most iconic landmark of Ohrid, North Macedonia, built in the 13th century. It is a core component of the UNESCO World Heritage site 'Natural and Cultural Heritage of the Ohrid Region'.\n\nSituated on a rocky promontory above Lake Ohrid, the church features a cruciform plan with an octagonal external dome, a treasure of medieval Byzantine architecture. The interior preserves precious 14th-century frescoes. Today, the church exterior area is open to the public free of charge, making it an excellent destination for exploring Ohrid's history, culture, and natural beauty."
+    "text": "The Church of St. John at Kaneo (Црква „Св. Јован Канео“ / Црква Свети Јован Богослов) is the most iconic landmark of Ohrid, North Macedonia, built in the 13th century. It is a core component of the UNESCO World Heritage site 'Natural and Cultural Heritage of the Ohrid Region'.\n\nSituated on a rocky promontory above Lake Ohrid, the church features a cruciform plan with an octagonal external dome, a treasure of medieval Byzantine architecture. The interior preserves precious 14th-century frescoes. Today, the church exterior area is open to the public free of charge, making it an excellent destination for exploring Ohrid's history, culture, and natural beauty."
   }
 }

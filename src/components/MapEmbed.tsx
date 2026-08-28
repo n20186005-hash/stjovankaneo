@@ -1,7 +1,20 @@
-import { useTranslations } from 'next-intl';
+'use client';
+
+import { useTranslations, useLocale } from 'next-intl';
+
+const MAPS_EMBED_SRC =
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5346.740962861613!2d20.788750600000004!3d41.111075299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350dcb9e2457c71%3A0xbea74f2f5ddcc056!2z5Zyj57qm57-w5pWZ5aCC!5e1!3m2!1szh-CN!2s!4v1787885657478!5m2!1szh-CN!2s';
+const MAPS_SHARE_URL = 'https://maps.app.goo.gl/HgjyeMiaoUm4q8S6A';
+const GOVT_TOURISM_URL = 'https://www.macedonia-timeless.com/';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const locale = useLocale();
+
+  const iframeTitle =
+    locale === 'zh'
+      ? 'Google Maps - 圣约翰神学家教堂（奥赫里德）'
+      : 'Google Maps - Church of St. John the Theologian at Kaneo, Ohrid';
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -20,26 +33,35 @@ export default function MapEmbed() {
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/* 
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.5!2d20.7984!3d41.1125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1353f8c8c8c8c8c1%3A0x8c8c8c8c8c8c8c8c!2sKaneo%20Plaosnik%20Pateka%2C%20Ohrid%206000%2C%20North%20Macedonia!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+            src={MAPS_EMBED_SRC}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Church of St. John at Kaneo"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title={iframeTitle}
           />
         </div>
 
         {/* Open in Google Maps */}
-        <div className="mt-6 flex justify-center">
+        <div className="mt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-sm text-center sm:text-left" style={{ color: 'var(--text-muted)' }}>
+            {t('govTourismText')}{' '}
+            <a
+              href={GOVT_TOURISM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline font-medium"
+              style={{ color: 'var(--accent)' }}
+            >
+              {t('govTourismLabel')}
+            </a>
+            .
+          </p>
           <a
-            href="https://maps.app.goo.gl/pTGAroF8fXphj64FA"
+            href={MAPS_SHARE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"

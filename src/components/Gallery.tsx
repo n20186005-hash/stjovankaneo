@@ -1,35 +1,106 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_20.jpg', alt: 'Church Panorama' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_03.jpg', alt: 'Lakeside Boardwalk' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_04.jpg', alt: 'Church Side View' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_05.jpg', alt: 'Octagonal Dome' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_06.jpg', alt: 'Red Brick Exterior' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_07.jpg', alt: 'Interior Frescoes' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_09.jpg', alt: 'Hilltop Viewpoint' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_10.jpg', alt: 'Sunset Moment' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_11.jpg', alt: 'Church Exterior' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_12.jpg', alt: 'Lake Ohrid View' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_13.jpg', alt: 'Cliffside Landscape' },
-  { src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_15.jpg', alt: 'Byzantine Architecture' },
-];
+const MAPS_SHARE_URL = 'https://maps.app.goo.gl/HgjyeMiaoUm4q8S6A';
+
+function buildPhotos(locale: string) {
+  const zh = locale === 'zh';
+  const prefix = zh ? '圣约翰卡内奥教堂' : 'Church of St. John at Kaneo';
+  const lake = zh ? '奥赫里德湖' : 'Lake Ohrid';
+  const city = zh ? '奥赫里德' : 'Ohrid';
+
+  return [
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_20.jpg',
+      alt: zh
+        ? `${prefix}全景 - ${city}${lake}悬崖主视角`
+        : `${prefix} Panorama - Main cliffside view over ${lake}, ${city}`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_03.jpg',
+      alt: zh
+        ? `湖畔木栈道 - 靠近${prefix}的步道景观`
+        : `Lakeside Boardwalk near ${prefix} - ${city}`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_04.jpg',
+      alt: zh
+        ? `${prefix}侧面视角 - ${city}拜占庭红砖建筑`
+        : `${prefix} Side View - Byzantine red-brick architecture in ${city}`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_05.jpg',
+      alt: zh
+        ? `${prefix}八角穹顶 - 中世纪建筑细节`
+        : `${prefix} Octagonal Dome - Medieval architectural detail`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_06.jpg',
+      alt: zh
+        ? `${prefix}红砖外墙 - cloisonné砌筑工艺`
+        : `${prefix} Red Brick Exterior - cloisonné masonry technique`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_07.jpg',
+      alt: zh
+        ? `${prefix}内部14世纪湿壁画`
+        : `${prefix} Interior 14th-Century Frescoes`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_09.jpg',
+      alt: zh
+        ? `${prefix}后山观景台 - 经典明信片机位`
+        : `${prefix} Hilltop Viewpoint - Classic postcard angle near ${prefix}`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_10.jpg',
+      alt: zh
+        ? `${prefix}日落时分 - ${city}${lake}黄金时刻`
+        : `${prefix} Sunset Moment - Golden Hour over ${lake}, ${city}`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_11.jpg',
+      alt: zh
+        ? `${prefix}外部全景 - ${city}湖畔地标`
+        : `${prefix} Exterior Overview - Lakeside landmark in ${city}`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_12.jpg',
+      alt: zh
+        ? `${prefix}${lake}视角 - ${city}悬崖景观`
+        : `${prefix} ${lake} View - Cliffside landscape in ${city}`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_13.jpg',
+      alt: zh
+        ? `${prefix}悬崖全景 - ${city}湖畔峭壁`
+        : `${prefix} Cliffside Landscape - Steep shore in ${city}`,
+    },
+    {
+      src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_15.jpg',
+      alt: zh
+        ? `${prefix}拜占庭建筑风格 - ${city}世界遗产`
+        : `${prefix} Byzantine Architecture - UNESCO World Heritage in ${city}`,
+    },
+  ];
+}
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const locale = useLocale();
+  const photos = buildPhotos(locale);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
-  }, []);
+  }, [photos.length]);
 
   const goToNext = useCallback(() => {
     setCurrentIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
-  }, []);
+  }, [photos.length]);
 
   const openLightbox = () => setIsLightboxOpen(true);
   const closeLightbox = () => setIsLightboxOpen(false);
@@ -63,7 +134,7 @@ export default function Gallery() {
                     alt={photo.alt}
                     className="w-full h-full object-cover rounded-lg"
                     style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                    loading="lazy"
+                    loading={i === 0 ? 'eager' : 'lazy'}
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
                     <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -95,7 +166,7 @@ export default function Gallery() {
 
             <div className="flex justify-center mt-6 gap-4 items-center">
               <a
-                href="https://maps.app.goo.gl/pTGAroF8fXphj64FA"
+                href={MAPS_SHARE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"

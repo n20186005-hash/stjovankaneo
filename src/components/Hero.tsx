@@ -1,7 +1,12 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function Hero() {
   const t = useTranslations('hero');
+  const locale = useLocale();
+
+  const heroAlt = locale === 'zh'
+    ? '圣约翰神学家教堂（卡内奥）- 北马其顿奥赫里德湖畔悬崖主视觉'
+    : 'Church of Saint John the Theologian at Kaneo - Main view in Ohrid, North Macedonia';
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
@@ -9,8 +14,9 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/Church of Saint Jovan the Theologian at Kaneo_20.jpg"
-          alt="Church of Saint Jovan the Theologian at Kaneo"
+          alt={heroAlt}
           className="w-full h-full object-cover"
+          loading="eager"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>
@@ -42,7 +48,7 @@ export default function Hero() {
               <span className="text-white text-sm">{t('hours')}</span>
             </div>
             <a
-              href="https://maps.app.goo.gl/pTGAroF8fXphj64FA"
+              href="https://maps.app.goo.gl/HgjyeMiaoUm4q8S6A"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2 hover:bg-white/25 transition-colors"
