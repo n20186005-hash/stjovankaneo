@@ -25,12 +25,16 @@ export default function Intro() {
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
 
-  const landmark1Alt = locale === 'zh'
-    ? '圣索菲亚教堂 - 靠近圣约翰卡内奥教堂的周边地标'
-    : 'Church of St. Sophia near St. John at Kaneo';
-  const landmark2Alt = locale === 'zh'
-    ? '普劳什尼克考古遗址 - 圣约翰卡内奥教堂周边地标'
-    : 'Plaošnik Archaeological Site near St. John at Kaneo';
+  const landmark1Alt = locale === 'mk'
+    ? 'Црква Света Софија - блиско обележје кај Св. Јован Канео'
+    : locale === 'zh'
+      ? '圣索菲亚教堂 - 靠近圣约翰卡内奥教堂的周边地标'
+      : 'Church of St. Sophia near St. John at Kaneo';
+  const landmark2Alt = locale === 'mk'
+    ? 'Археолошки локалитет Плаошник - блиско обележје кај Св. Јован Канео'
+    : locale === 'zh'
+      ? '普劳什尼克考古遗址 - 圣约翰卡内奥教堂周边地标'
+      : 'Plaošnik Archaeological Site near St. John at Kaneo';
 
   return (
     <section className="section-padding">
@@ -107,7 +111,7 @@ export default function Intro() {
               </div>
               <div>
                 <p className="font-medium mb-1" style={{ color: 'var(--text-primary)' }}>
-                  {locale === 'zh' ? '圣索菲亚教堂' : 'Church of St. Sophia'}
+                  {locale === 'mk' ? 'Црква Света Софија' : locale === 'zh' ? '圣索菲亚教堂' : 'Church of St. Sophia'}
                 </p>
                 <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{landmark1Alt}</p>
               </div>
@@ -123,7 +127,11 @@ export default function Intro() {
               </div>
               <div>
                 <p className="font-medium mb-1" style={{ color: 'var(--text-primary)' }}>
-                  {locale === 'zh' ? '普劳什尼克考古遗址（圣克莱门特教堂）' : 'Plaošnik Archaeological Site (St. Clement)'}
+                  {locale === 'mk'
+                    ? 'Археолошки локалитет Плаошник (Св. Климент)'
+                    : locale === 'zh'
+                      ? '普劳什尼克考古遗址（圣克莱门特教堂）'
+                      : 'Plaošnik Archaeological Site (St. Clement)'}
                 </p>
                 <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{landmark2Alt}</p>
               </div>

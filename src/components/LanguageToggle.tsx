@@ -6,6 +6,7 @@ import { routing, type Locale } from '@/i18n/routing';
 import { useState, useRef, useEffect } from 'react';
 
 const labels: Record<string, string> = {
+  mk: 'Македонски',
   zh: '中文',
   en: 'English',
 };

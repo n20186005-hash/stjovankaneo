@@ -12,9 +12,11 @@ export default function MapEmbed() {
   const locale = useLocale();
 
   const iframeTitle =
-    locale === 'zh'
-      ? 'Google Maps - 圣约翰神学家教堂（奥赫里德）'
-      : 'Google Maps - Church of St. John the Theologian at Kaneo, Ohrid';
+    locale === 'mk'
+      ? 'Google Maps - Црква Свети Јован Богослов во Канео, Охрид'
+      : locale === 'zh'
+        ? 'Google Maps - 圣约翰神学家教堂（奥赫里德）'
+        : 'Google Maps - Church of St. John the Theologian at Kaneo, Ohrid';
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>

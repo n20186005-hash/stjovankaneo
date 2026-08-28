@@ -6,81 +6,106 @@ import { useState, useCallback } from 'react';
 const MAPS_SHARE_URL = 'https://maps.app.goo.gl/HgjyeMiaoUm4q8S6A';
 
 function buildPhotos(locale: string) {
+  const mk = locale === 'mk';
   const zh = locale === 'zh';
-  const prefix = zh ? '圣约翰卡内奥教堂' : 'Church of St. John at Kaneo';
-  const lake = zh ? '奥赫里德湖' : 'Lake Ohrid';
-  const city = zh ? '奥赫里德' : 'Ohrid';
+  const prefix = mk ? 'Св. Јован Канео' : zh ? '圣约翰卡内奥教堂' : 'Church of St. John at Kaneo';
+  const lake = mk ? 'Охридското Езеро' : zh ? '奥赫里德湖' : 'Lake Ohrid';
+  const city = mk ? 'Охрид' : zh ? '奥赫里德' : 'Ohrid';
 
   return [
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_20.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - панорамски поглед над ${lake}, ${city}`
+        : zh
         ? `${prefix}全景 - ${city}${lake}悬崖主视角`
         : `${prefix} Panorama - Main cliffside view over ${lake}, ${city}`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_03.jpg',
-      alt: zh
+      alt: mk
+        ? `Крајезерска патека кај ${prefix} - ${city}`
+        : zh
         ? `湖畔木栈道 - 靠近${prefix}的步道景观`
         : `Lakeside Boardwalk near ${prefix} - ${city}`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_04.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} од страна - византиска црвена фасада во ${city}`
+        : zh
         ? `${prefix}侧面视角 - ${city}拜占庭红砖建筑`
         : `${prefix} Side View - Byzantine red-brick architecture in ${city}`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_05.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - осумаголна купола и средновековни детали`
+        : zh
         ? `${prefix}八角穹顶 - 中世纪建筑细节`
         : `${prefix} Octagonal Dome - Medieval architectural detail`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_06.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - црвена фасада со cloisonné ѕидарија`
+        : zh
         ? `${prefix}红砖外墙 - cloisonné砌筑工艺`
         : `${prefix} Red Brick Exterior - cloisonné masonry technique`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_07.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - внатрешни фрески од 14 век`
+        : zh
         ? `${prefix}内部14世纪湿壁画`
         : `${prefix} Interior 14th-Century Frescoes`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_09.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - видиковец на ридот, класичен разгледнички агол`
+        : zh
         ? `${prefix}后山观景台 - 经典明信片机位`
         : `${prefix} Hilltop Viewpoint - Classic postcard angle near ${prefix}`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_10.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} на зајдисонце - златен час над ${lake}, ${city}`
+        : zh
         ? `${prefix}日落时分 - ${city}${lake}黄金时刻`
         : `${prefix} Sunset Moment - Golden Hour over ${lake}, ${city}`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_11.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - надворешен преглед, крајезерско обележје во ${city}`
+        : zh
         ? `${prefix}外部全景 - ${city}湖畔地标`
         : `${prefix} Exterior Overview - Lakeside landmark in ${city}`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_12.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - поглед кон ${lake} и карпестиот брег во ${city}`
+        : zh
         ? `${prefix}${lake}视角 - ${city}悬崖景观`
         : `${prefix} ${lake} View - Cliffside landscape in ${city}`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_13.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - карпест пејзаж над езерото во ${city}`
+        : zh
         ? `${prefix}悬崖全景 - ${city}湖畔峭壁`
         : `${prefix} Cliffside Landscape - Steep shore in ${city}`,
     },
     {
       src: '/gallery/Church of Saint Jovan the Theologian at Kaneo_15.jpg',
-      alt: zh
+      alt: mk
+        ? `${prefix} - византиска архитектура и светско наследство во ${city}`
+        : zh
         ? `${prefix}拜占庭建筑风格 - ${city}世界遗产`
         : `${prefix} Byzantine Architecture - UNESCO World Heritage in ${city}`,
     },

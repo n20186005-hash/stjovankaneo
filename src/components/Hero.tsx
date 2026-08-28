@@ -4,9 +4,11 @@ export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
 
-  const heroAlt = locale === 'zh'
-    ? '圣约翰神学家教堂（卡内奥）- 北马其顿奥赫里德湖畔悬崖主视觉'
-    : 'Church of Saint John the Theologian at Kaneo - Main view in Ohrid, North Macedonia';
+  const heroAlt = locale === 'mk'
+    ? 'Црква Свети Јован Богослов во Канео - главен поглед над Охридското Езеро'
+    : locale === 'zh'
+      ? '圣约翰神学家教堂（卡内奥）- 北马其顿奥赫里德湖畔悬崖主视觉'
+      : 'Church of Saint John the Theologian at Kaneo - Main view in Ohrid, North Macedonia';
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
