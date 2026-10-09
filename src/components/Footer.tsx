@@ -1,10 +1,12 @@
-import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
+import { useTranslations, useLocale, useMessages } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
+  const messages = useMessages() as any;
   const prefix = `/${locale}`;
+  const guides: Array<{ slug: string; label: string }> =
+    (messages?.footer?.guides as Array<{ slug: string; label: string }>) || [];
 
   return (
     <footer
@@ -35,6 +37,28 @@ export default function Footer() {
               </a>
             </div>
           </div>
+          {guides.length > 0 && (
+            <div className="max-w-md">
+              <h3 className="font-display text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
+                {t('guidesTitle')}
+              </h3>
+              <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
+                {t('officialResourcesTitle')}
+              </p>
+              <div className="flex flex-col gap-2">
+                {guides.map((g, i) => (
+                  <a
+                    key={i}
+                    href={`${prefix}/${g.slug}`}
+                    className="hover:underline text-sm"
+                    style={{ color: 'var(--accent)' }}
+                  >
+                    {g.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
           <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
             <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
               {t('privacy')}

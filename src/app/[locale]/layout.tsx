@@ -187,10 +187,10 @@ export default async function LocaleLayout({
         acceptedAnswer: {
           '@type': 'Answer',
           text: locale === 'mk'
-            ? `Надворешниот дел и карпестата тераса на ${fullName} се бесплатни и достапни 24/7 во текот на целата година. За влез во внатрешноста и разгледување на средновековните фрески се плаќа билет (околу 150 денари / ~2,5 евра, само готовина).`
+            ? `Надворешниот дел и карпестата тераса на ${fullName} се бесплатни и достапни 24/7 во текот на целата година. За влез во внатрешноста и разгледување на средновековните фрески се плаќа билет (околу 150 денари / ~2,5 евра, само готовина; цените проверени октомври 2026).`
             : locale === 'zh'
-              ? `${fullName}的外部及悬崖区域全年24小时免费开放；进入教堂内部观赏中世纪壁画需购买门票（约150第纳尔，约2.5欧元，仅收现金）。`
-              : `The exterior and cliff area of ${fullName} are open 24/7 free of charge year-round. Interior access to view the medieval frescoes requires a ticket (approx. 150 MKD / ~2.5 EUR, cash only).`,
+              ? `${fullName}的外部及悬崖区域全年24小时免费开放；进入教堂内部观赏中世纪壁画需购买门票（约150第纳尔，约2.5欧元，仅收现金；价格于2026年10月核实）。`
+              : `The exterior and cliff area of ${fullName} are open 24/7 free of charge year-round. Interior access to view the medieval frescoes requires a ticket (approx. 150 MKD / ~2.5 EUR, cash only; price checked October 2026).`,
         },
       },
       {

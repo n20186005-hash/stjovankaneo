@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Church of St. John at Kaneo, Ohrid — Opening Hours, Tickets & Photos",
+    "title": "St. John at Kaneo Church, Ohrid — Opening Hours, Tickets & Photos",
     "ogTitle": "Church of St. John at Kaneo - Ohrid Travel Guide",
     "description": "Discover Church of Saint John the Theologian at Kaneo, the iconic cliffside landmark in Ohrid, Southwestern, North Macedonia. View location map, opening details, nearby Church of St. Sophia and Plaošnik Archaeological Site, and travel tips.",
     "ogDescription": "Official visitor guide to Church of Saint John the Theologian at Kaneo (St. John at Kaneo) in Ohrid, North Macedonia. The most iconic postcard landmark on Lake Ohrid."
@@ -16,8 +16,8 @@
   "hero": {
     "title": "Church of Saint John the Theologian at Kaneo (Ohrid)",
     "subtitle": "Stunning Cliffside Landmark on Lake Ohrid — Iconic St. John at Kaneo Postcard View",
-    "rating": "4.9(5,701)",
-    "reviewCount": "5,701 reviews",
+    "rating": "4.9",
+    "reviewCount": "5,891 reviews",
     "hours": "Exterior open 24/7",
     "openMaps": "View Location"
   },
@@ -29,7 +29,7 @@
     "entityOpening": "Welcome to **Church of Saint John the Theologian at Kaneo**, widely recognized as the central **St. John at Kaneo**. Located in the heart of **Ohrid**, **Southwestern**, **North Macedonia**, this destination serves as a primary hub for travelers visiting the region. As the most iconic postcard landmark on Lake Ohrid, this medieval Orthodox church stands as a testament to centuries of Byzantine architectural heritage.",
     "breadcrumbLine": "Church of Saint John the Theologian at Kaneo  →  Ohrid  →  Southwestern Region  →  North Macedonia",
     "nearbyOpening": "When visiting **Church of Saint John the Theologian at Kaneo**, visitors can easily explore surrounding historical landmarks and points of interest, including **Church of St. Sophia** and **Plaošnik Archaeological Site (Church of St. Clement)**.",
-    "description": "At first glance, the Church of St. John at Kaneo stuns with its isolated serenity and majesty. It stands proudly on a cliff edge above Lake Ohrid, backed by the boundless, sapphire-clear waters.\n\nI visited on an early autumn evening. Walking up the winding wooden boardwalk, the breeze brushed against the crystal-clear water. Reaching the top, the ancient brick church appeared. The setting sun draped a golden veil over its dome and walls, with the Galičica mountains forming a purple silhouette in the distance.\n\nThere is no lavish decoration here, only the peace washed by time. Sitting on a cliffside rock, listening to the wind and gentle waves, overlooking the sparkling Lake Ohrid, the weight of history and the healing power of nature blend perfectly. Whether you are religious or not, this small church on the cliff will instantly bring peace to your soul.",
+    "description": "At first glance, the Church of St. John at Kaneo stuns with its isolated serenity and majesty. It stands proudly on a cliff edge above Lake Ohrid, backed by the boundless, sapphire-clear waters.\n\nReaching the top of the winding wooden boardwalk, the ancient brick church appears before you. At sunset, the setting sun drapes a golden veil over its dome and walls, with the Galičica mountains forming a purple silhouette in the distance.\n\nThere is no lavish decoration here, only the peace washed by time. Sitting on a cliffside rock, listening to the wind and gentle waves, overlooking the sparkling Lake Ohrid, the weight of history and the healing power of nature blend perfectly. Whether you are religious or not, this small church on the cliff will instantly bring peace to your soul.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
@@ -85,7 +85,7 @@
     "city": "City",
     "cityValue": "Ohrid",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.9/5 (5,701)",
+    "googleRatingValue": "4.9/5 (5,891)",
     "phone": "Phone",
     "phoneValue": "+389 46 230 455",
     "address": "Address",
@@ -110,7 +110,7 @@
     "outdoorPrice": "Completely free access, no admission fee",
     "lighthouse": "Church Interior Visit",
     "adults": "Adults",
-    "adultsPrice": "About 150 MKD (approx. 2.5 EUR), cash only",
+    "adultsPrice": "About 150 MKD (approx. 2.5 EUR), cash only. Price checked October 2026; may vary.",
     "students": "Students & Seniors",
     "studentsPrice": "Discounted pricing (ID required)",
     "children": "Children",
@@ -228,32 +228,7 @@
     "title": "Visitor Reviews",
     "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
     "moreReviews": "View more reviews on Google Maps",
-    "items": [
-      {
-        "name": "Ming Z.",
-        "date": "March 2026",
-        "rating": 5,
-        "text": "Absolutely beautiful! This church is the soul of Ohrid, standing isolated on the cliff, backed by the sapphire-clear Lake Ohrid. The sunset moment is absolutely the best time — the church is breathtakingly beautiful in the golden sunlight."
-      },
-      {
-        "name": "Hua L.",
-        "date": "February 2026",
-        "rating": 5,
-        "text": "Walked here along the lakeside boardwalk. When the church suddenly appeared before my eyes, that shock was indescribable. Red bricks, dome, lake, mountains — perfectly fused together. One of the most worthwhile attractions in the Balkans!"
-      },
-      {
-        "name": "Fang W.",
-        "date": "January 2026",
-        "rating": 5,
-        "text": "A treasure of medieval Byzantine architecture. The exterior walls with alternating red bricks and light stones are very distinctive. Although photography is not allowed inside, those 14th-century frescoes are truly precious. Strongly recommend visiting in the evening!"
-      },
-      {
-        "name": "Wei C.",
-        "date": "December 2025",
-        "rating": 5,
-        "text": "About 20 minutes walk from the Old Town; the lakeside boardwalk scenery along the way is picturesque. The church exterior area is free; entering the interior costs only about 2.5 EUR — excellent value for money. The hilltop viewpoint is an absolute photo hotspot!"
-      }
-    ]
+    "items": []
   },
   "mapSection": {
     "title": "Location & How to Visit St. John at Kaneo in Ohrid",
@@ -275,7 +250,15 @@
       "mfa": "Ministry of Foreign Affairs",
       "england": "Ohrid Tourism"
     },
-    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
+    "guidesTitle": "Guides",
+    "guides": [
+      { "slug": "how-to-get-to-st-john-at-kaneo", "label": "How to Get Here" },
+      { "slug": "opening-hours", "label": "Opening Hours" },
+      { "slug": "photo-spots", "label": "Photo Spots" },
+      { "slug": "history", "label": "History" },
+      { "slug": "ohrid-old-town-walking-route", "label": "Old Town Walking Route" }
+    ]
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -361,5 +344,147 @@
   "officialManagement": {
     "title": "About Church of St. John at Kaneo",
     "text": "The Church of St. John at Kaneo (Црква „Св. Јован Канео“ / Црква Свети Јован Богослов) is the most iconic landmark of Ohrid, North Macedonia, built in the 13th century. It is a core component of the UNESCO World Heritage site 'Natural and Cultural Heritage of the Ohrid Region'.\n\nSituated on a rocky promontory above Lake Ohrid, the church features a cruciform plan with an octagonal external dome, a treasure of medieval Byzantine architecture. The interior preserves precious 14th-century frescoes. Today, the church exterior area is open to the public free of charge, making it an excellent destination for exploring Ohrid's history, culture, and natural beauty."
+  },
+  "topics": {
+    "howToGet": {
+      "title": "How to Get to St. John at Kaneo — Ohrid Transport Guide",
+      "intro": "St. John at Kaneo stands on a cliff above Lake Ohrid, about a 15–20 minute walk west of Ohrid Old Town. This guide covers every way to reach it — by air, intercity bus, on foot, and by boat.",
+      "faqTitle": "Frequently Asked Questions",
+      "relatedTitle": "Related Guides",
+      "sections": [
+        {
+          "heading": "From Ohrid Airport (OHD)",
+          "content": "Ohrid St. Paul the Apostle Airport is about 10 km from the city center. There is no frequent public bus, so the easiest option is an official taxi from the terminal to Ohrid Old Town (15–20 minutes, roughly 10–15 EUR). From there, continue on foot or by water taxi to the church."
+        },
+        {
+          "heading": "From Skopje by Intercity Bus",
+          "content": "Buses between Skopje and Ohrid run roughly every hour and take 3–3.5 hours (around 5–7 EUR). They arrive at the Ohrid bus station, a 25-minute walk or short taxi ride from the Old Town; from the Old Town you then walk to Kaneo."
+        },
+        {
+          "heading": "Walking from Ohrid Old Town (Recommended)",
+          "content": "From the Church of St. Sophia, head west along the lakeside **Kaneo Boardwalk** (direction Potpesh Beach). The path is mostly flat, then climbs a short stretch of stone steps to the cliff top — about 15–20 minutes in total. This is the most scenic and rewarding approach."
+        },
+        {
+          "heading": "Water Taxi",
+          "content": "From Ohrid harbor or the city pier you can hire a small boat (water taxi) directly to Kaneo Beach. It costs about 5–10 EUR one way and spares the walk while giving you a panoramic view of the church from the water."
+        },
+        {
+          "heading": "By Car & Where to Park",
+          "content": "Vehicles cannot reach the cliff directly. Park near the Old Town or up at Plaošnik and walk down. Parking is limited and fills up in summer, so arrive early or choose a paid lot on the Old Town edge."
+        },
+        {
+          "heading": "Practical Tips",
+          "content": "The wooden boardwalk is narrow with no guardrails and the stone steps get slippery when wet — wear non-slip shoes. Summer UV is strong, so bring water and sun protection. The final approach is on foot only, so pack light."
+        }
+      ],
+      "faq": [
+        { "q": "Can you drive directly to St. John at Kaneo?", "a": "No. Cars stop at the Old Town or Plaošnik; the last stretch to the cliff is on foot only." },
+        { "q": "How long is the walk from Ohrid Old Town?", "a": "About 15–20 minutes one way from the Church of St. Sophia, including the final stone steps." },
+        { "q": "Is there any public transport to the church?", "a": "There is no direct bus. Your options are walking from the Old Town, a taxi to the Old Town, or a water taxi to Kaneo Beach." },
+        { "q": "How much is a taxi from Ohrid Airport?", "a": "Approximately 10–15 EUR to Ohrid Old Town, a 15–20 minute ride." }
+      ],
+      "related": [
+        { "slug": "opening-hours", "label": "Opening Hours" },
+        { "slug": "photo-spots", "label": "Photo Spots" },
+        { "slug": "ohrid-old-town-walking-route", "label": "Old Town Walking Route" }
+      ]
+    },
+    "openingHours": {
+      "title": "St. John at Kaneo Opening Hours — Exterior 24/7 & Interior Schedule",
+      "intro": "The church exterior and cliff area are open around the clock and free of charge all year, while the interior (for viewing the medieval frescoes) follows a seasonal, ticketed schedule.",
+      "faqTitle": "Frequently Asked Questions",
+      "relatedTitle": "Related Guides",
+      "sections": [
+        { "heading": "Exterior & Cliff Area", "content": "Open **24/7** year-round with no gate or access restriction. The terrace, boardwalk, and pine-hill viewpoint are always accessible and free." },
+        { "heading": "Church Interior — Summer (April–October)", "content": "Open daily **09:00–18:00**. This is when the 14th-century frescoes can be viewed inside; a small ticket (about 150 MKD, cash only) is required." },
+        { "heading": "Church Interior — Winter (November–March)", "content": "Open daily **09:00–16:00**. Daylight is shorter, so plan to arrive well before closing." },
+        { "heading": "Best Time to Visit", "content": "Roughly one hour before sunset (golden hour) gives the warmest light on the red-brick facade and the lake. Early morning has fewer crowds and calm, sapphire-blue water; avoid harsh midday sun for photography." },
+        { "heading": "Seasonal & Holiday Notes", "content": "The boardwalk and steps can be slippery after rain or snow. On major Orthodox feast days the interior may close for services. Interior tickets are cash only, so bring denars or euros." }
+      ],
+      "faq": [
+        { "q": "What are the exact opening hours?", "a": "The exterior is open 24/7, year-round and free. The interior is open 09:00–18:00 in summer (April–October) and 09:00–16:00 in winter (November–March)." },
+        { "q": "Is the church open on Sundays?", "a": "The exterior is always open. The interior is generally open but may pause during Sunday liturgy, so visit outside service times." },
+        { "q": "When is the best light for photos?", "a": "About one hour before sunset, when the bricks glow orange and Lake Ohrid sparkles." },
+        { "q": "Can I visit at night?", "a": "Yes for the exterior and cliff area (24/7). The interior is closed at night." }
+      ],
+      "related": [
+        { "slug": "how-to-get-to-st-john-at-kaneo", "label": "How to Get Here" },
+        { "slug": "photo-spots", "label": "Photo Spots" }
+      ]
+    },
+    "photoSpots": {
+      "title": "St. John at Kaneo Photo Spots — Best Angles & Real Shots",
+      "intro": "A compact red-brick church on a cliff above a sapphire lake makes Kaneo one of the most photographed places in the Balkans. Below are the five best vantage points, with timing notes and the actual photos from our gallery.",
+      "faqTitle": "Frequently Asked Questions",
+      "relatedTitle": "Related Guides",
+      "sections": [
+        { "heading": "Hilltop Viewpoint (Classic Postcard)", "content": "Walk about 50 m up the pine hill behind the church for a high angle that frames the red roof, the cliff, and Lake Ohrid in one shot. This is the iconic postcard view (see gallery photos 9 and 20)." },
+        { "heading": "Boardwalk Upward Angle", "content": "From the wooden path near Kaneo Beach, use the lake as foreground and shoot upward at the church towering on the cliff (gallery photo 3). Best in the soft light of late afternoon." },
+        { "heading": "Arched Windows & Lake", "content": "Use the exterior blind arches and small windows as a natural frame for the lake and passing birds (gallery photos 4 and 5). A telephoto or zoom lens compresses the layers beautifully." },
+        { "heading": "Boat View", "content": "From a boat on the lake you get an expansive view of the church and the steep cliff beneath it (gallery photos 12 and 13). Hire a water taxi and shoot from mid-lake." },
+        { "heading": "Sunset Silhouette", "content": "At sunset the church forms a perfect silhouette in golden light over the sparkling lake (gallery photo 10) — the most atmospheric moment of the day." },
+        { "heading": "Interior Photography", "content": "Photography and videography inside the church are strictly forbidden to protect the 14th-century frescoes. Please respect the rule and the religious site." },
+        { "heading": "Shooting Tips", "content": "The absolute best time is the golden hour before sunset. Mornings give deep sapphire water with front light; evenings give the strongest mood. Drones are usually restricted here — do not fly illegally." }
+      ],
+      "faq": [
+        { "q": "Where is the single best photo spot?", "a": "The hilltop behind the church, about 50 m up, for the classic postcard frame of roof, cliff, and lake." },
+        { "q": "Can I fly a drone here?", "a": "Drone flights are generally restricted in this area. Do not fly illegally; check local rules on site." },
+        { "q": "Can I photograph inside the church?", "a": "No. Photography and videography inside are strictly forbidden to protect the frescoes." },
+        { "q": "When is the best time to shoot?", "a": "About one hour before sunset for golden light; early morning for calm blue water." }
+      ],
+      "related": [
+        { "slug": "how-to-get-to-st-john-at-kaneo", "label": "How to Get Here" },
+        { "slug": "ohrid-old-town-walking-route", "label": "Old Town Walking Route" }
+      ]
+    },
+    "history": {
+      "title": "History of St. John at Kaneo — 13th-Century Byzantine Church",
+      "intro": "Dating to the late 13th century, St. John at Kaneo is a jewel of Byzantine architecture and a core part of the UNESCO 'Natural and Cultural Heritage of the Ohrid Region'.",
+      "faqTitle": "Frequently Asked Questions",
+      "relatedTitle": "Related Guides",
+      "sections": [
+        { "heading": "Origins & Construction", "content": "The exact year is unknown, but historians date the church to the late 13th century (around 1250–1300), before Ottoman rule. It is dedicated to John the Theologian, traditionally identified as the author of the Book of Revelation." },
+        { "heading": "Through the Ottoman Period", "content": "During centuries of Ottoman rule the church survived, though some interior frescoes were lost over time. It remained a quiet landmark on the cliff above the lake." },
+        { "heading": "The 1960s Restoration", "content": "A major restoration in the 1960s removed a 19th-century wooden porch, restoring the original medieval appearance and unexpectedly uncovering hidden 14th-century frescoes in the dome." },
+        { "heading": "UNESCO & Cultural Role", "content": "Today it is protected as national cultural heritage of North Macedonia and is a core component of the UNESCO World Heritage site. It is also an active Orthodox sanctuary and the most recognizable symbol of Ohrid." },
+        { "heading": "Architecture in Brief", "content": "The church has a cruciform plan with a rectangular base and an octagonal external dome. The facade uses the Byzantine cloisonné technique — alternating red bricks and light stone — forming blind arches and ceramic decoration." }
+      ],
+      "faq": [
+        { "q": "When was St. John at Kaneo built?", "a": "In the late 13th century, approximately 1250–1300, before the Ottoman period." },
+        { "q": "Who is the church dedicated to?", "a": "To John the Theologian (John the Apostle and author of the Book of Revelation)." },
+        { "q": "Why is it so famous?", "a": "For its iconic cliffside postcard view, its 14th-century Byzantine frescoes, and its status as a UNESCO World Heritage site." },
+        { "q": "Which frescoes survive?", "a": "Precious 14th-century frescoes remain, including the dome fresco 'Christ Pantocrator' of high medieval art value." }
+      ],
+      "related": [
+        { "slug": "ohrid-old-town-walking-route", "label": "Old Town Walking Route" },
+        { "slug": "opening-hours", "label": "Opening Hours" }
+      ]
+    },
+    "oldTownRoute": {
+      "title": "Ohrid Old Town Walking Route — Kaneo, Plaošnik & St. Sophia",
+      "intro": "A self-guided circular walk linking Ohrid's three headline sights on the cliffside peninsula. Allow 2.5–3.5 hours at a relaxed pace, with time for photos and a lakeside coffee.",
+      "faqTitle": "Frequently Asked Questions",
+      "relatedTitle": "Related Guides",
+      "sections": [
+        { "heading": "Overview & Stats", "content": "A loop of about 4 km taking 2.5–3.5 hours. Difficulty is moderate: mostly flat along the lake but with stone steps and an uphill section to Plaošnik. Start at the Church of St. Sophia in the Old Town." },
+        { "heading": "Stop 1 — Church of St. Sophia", "content": "An 11th-century Byzantine cathedral famous for its frescoes (allow ~20 minutes). From here step down toward the lake and join the Kaneo Boardwalk." },
+        { "heading": "Stop 2 — Kaneo Boardwalk", "content": "Walk the picturesque wooden path along the cliff edge toward Kaneo Beach (about 15 minutes). There are lakeside cafes where you can pause for a coffee." },
+        { "heading": "Stop 3 — St. John at Kaneo", "content": "Climb the stone steps to the cliff-top church, then continue up the pine hill behind it for the classic viewpoint (allow ~45 minutes including photos)." },
+        { "heading": "Stop 4 — Plaošnik (St. Clement)", "content": "Continue uphill to the archaeological site of Plaošnik and the rebuilt Church of St. Clement (allow ~40 minutes). The hilltop offers wide views back toward Kaneo." },
+        { "heading": "Stop 5 — Return via Old Town Alleys", "content": "Walk back down through the Old Town's stone alleys, passing antique shops and cafes (about 30 minutes), completing the loop at St. Sophia." },
+        { "heading": "What to Bring & Tips", "content": "Carry water, wear non-slip shoes, and bring sun protection in summer. Start in the morning to avoid midday heat and crowds. Interior entries are separate small fees (cash); there is no combined ticket." }
+      ],
+      "faq": [
+        { "q": "How long does the walking route take?", "a": "About 2.5–3.5 hours at a relaxed pace, including photo stops and a coffee break." },
+        { "q": "Is it suitable for families?", "a": "Yes, but there are many stone steps and some uphill walking, so strollers are difficult and young children need supervision." },
+        { "q": "Do I need a guide?", "a": "It is self-guided and well signed; a map helps. A local guide is optional if you want deeper historical context." },
+        { "q": "Where should I start the walk?", "a": "At the Church of St. Sophia in Ohrid Old Town, which connects to the Kaneo Boardwalk." }
+      ],
+      "related": [
+        { "slug": "how-to-get-to-st-john-at-kaneo", "label": "How to Get Here" },
+        { "slug": "photo-spots", "label": "Photo Spots" },
+        { "slug": "history", "label": "History" }
+      ]
+    }
   }
 }

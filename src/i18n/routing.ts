@@ -12,6 +12,11 @@ export const routing = defineRouting({
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',
+    '/how-to-get-to-st-john-at-kaneo': '/how-to-get-to-st-john-at-kaneo',
+    '/opening-hours': '/opening-hours',
+    '/photo-spots': '/photo-spots',
+    '/history': '/history',
+    '/ohrid-old-town-walking-route': '/ohrid-old-town-walking-route',
   },
 });
 
